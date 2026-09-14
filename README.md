@@ -2,6 +2,22 @@
 
 > Municipal permitting where illegal workflow transitions are rejected by the database, not by a service layer somebody will bypass.
 
+## Live deployment
+
+[![CI and deployment](https://github.com/SlateGitOrg/permitflow/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SlateGitOrg/permitflow/actions/workflows/ci.yml)
+
+[Open the interactive Permit Flow demo](https://slategitorg.github.io/permitflow/)
+
+The deployed interface uses a deterministic offline scenario to make the repository's tested decision rule visible without external services or private data.
+
+### Desktop
+
+![Permit Flow desktop deployment](docs/assets/deployed-desktop.png)
+
+### Mobile
+
+<img src="docs/assets/deployed-mobile.png" alt="Permit Flow mobile deployment" width="390">
+
 `FLAGSHIP` · **Full Stack Engineering** · Advanced · ~4-5 weeks · Public sector
 
 **Primary language:** TypeScript
